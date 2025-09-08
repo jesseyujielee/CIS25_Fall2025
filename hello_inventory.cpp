@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-int main() {
+int hello_inventory() {
 	cout << "Hello Inventory System!\n";
 	cout << "Data Types Sizes:\n";
 	cout << "int\t-\t" << sizeof(int) << " bytes\n";
