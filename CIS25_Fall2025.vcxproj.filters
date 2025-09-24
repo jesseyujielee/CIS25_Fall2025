@@ -33,6 +33,9 @@
     <ClCompile Include="Week 5\greatest_digit.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Week 5\exponentiate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include=".gitignore" />
@@ -40,6 +43,9 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Week 5\greatest_digit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Week 5\exponentiate.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
