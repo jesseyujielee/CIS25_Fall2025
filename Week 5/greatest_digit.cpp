@@ -1,5 +1,6 @@
 #include <string>
 #include <cmath>
+#include "greatest_digit.h"
 
 int greatest_digit(int num) {
 
