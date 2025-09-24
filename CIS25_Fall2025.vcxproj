@@ -23,6 +23,8 @@
     <ClCompile Include="Week 3\week_3.cpp" />
     <ClCompile Include="Week 4\week_4_largest_number.cpp" />
     <ClCompile Include="Week 4\week_4_menu.cpp" />
+    <ClCompile Include="Week 5\greatest_digit.cpp" />
+    <ClCompile Include="Week 5\week_5_menu.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include=".gitignore" />
