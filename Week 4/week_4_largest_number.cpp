@@ -1,6 +1,6 @@
 # include <iostream>
 
-int main() {
+int week_4_largest_number() {
     std::cout << "Enter 3 numbers: ";
     float x{}, y{}, z{};
     std::cin >> x >> y >> z;
