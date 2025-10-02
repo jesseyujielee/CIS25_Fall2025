@@ -38,10 +38,20 @@ Objective: to output the largest number out of 3 inputs.
 
 week_5_menu.cpp:
 
-Objective: to create a 3-choice menu for number operations using loops (while, do-while, & for) and headers
+Objective: to create a 3-choice menu for number operations using loops (while, do-while, & for) and headers.
 1. Headers for functions are declared.
 2. Input is taken for the menu choice in a do-while loop.
 3. If choice is 1, the loop ends and the program terminates.
 4. If choice is 2, the greatest digit is found via a while loop that continually takes the remainder of the number divided by 10, compares it to the greatest, updates if needed, then integer divides the number by 10.
 5. If choice is 3, exponentiation is done via a for loop that continually multiplies the result (starts at 1 in case exp is 0) by the base the number of times of the absolute value of the exponent.
 6. If the exponent is negative, the reciprocal of the result is returned, otherwise the result is returned.
+
+# Week 6
+
+week_6_inventory.cpp:
+
+Objective: to create an Item class, instantiate it and give it values, and call its methods.
+1. Class Item is declared with public members name, description, and quantity.
+2. A constructor takes input.
+3. Public methods allow for the input and output of data in a text file using fstream.
+4. In main(), create an instance of Item called pen, give it its arguments, and call saveToFile() and loadFrom File().
