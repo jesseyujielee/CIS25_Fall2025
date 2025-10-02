@@ -2,7 +2,7 @@
 #include "greatest_digit.h"
 #include "exponentiate.h"
 
-int main() {
+int week_5() {
 
 	int choice{ 0 };
 	do {
