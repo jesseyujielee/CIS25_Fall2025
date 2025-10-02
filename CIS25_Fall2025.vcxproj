@@ -26,6 +26,7 @@
     <ClCompile Include="Week 5\exponentiate.cpp" />
     <ClCompile Include="Week 5\greatest_digit.cpp" />
     <ClCompile Include="Week 5\week_5_menu.cpp" />
+    <ClCompile Include="Week 6\week_6_inventory.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include=".gitignore" />
@@ -34,6 +35,9 @@
   <ItemGroup>
     <ClInclude Include="Week 5\exponentiate.h" />
     <ClInclude Include="Week 5\greatest_digit.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Week 6\items.txt" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
