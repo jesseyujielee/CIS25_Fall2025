@@ -27,10 +27,13 @@
     <ClCompile Include="Week 5\greatest_digit.cpp" />
     <ClCompile Include="Week 5\week_5_menu.cpp" />
     <ClCompile Include="Week 6\week_6_inventory.cpp" />
+    <ClCompile Include="Week 7\week_7_binary_search.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include=".gitignore" />
     <None Include="README.md" />
+    <None Include="Week 7\us-500-windows.csv" />
+    <None Include="Week 7\us-500.csv" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Week 5\exponentiate.h" />

@@ -34,7 +34,7 @@ public:
 	}
 };
 
-int main() {
+int week_6_inventory() {
 	Item pen("Household pen", "Mighter than the sword", 5);
 
 	pen.saveToFile();
