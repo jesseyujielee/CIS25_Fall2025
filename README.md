@@ -63,8 +63,8 @@ week_7_binary_search.cpp:
 Objective: to use structs, pointers, and dynamic memory allocation to create a binary search algorithm
 1. A struct called Item is created with the members name and id.
 2. A dynamic array of Item is created.
-3. From a sample data set online of 500 names (https://www.briandunning.com/sample-data/; although you have to convert it to Windows-style line endings because it uses Mac line endings), use <fstream> to read the .csv file line by line.
-4. In a for loop, the first and last names are set as members of the Item struct in the array (after removing them with str.erase() from <algorithms>), and also give each one their id.
+3. From a sample data set online of 500 names (https://www.briandunning.com/sample-data/; although you have to convert it to Windows-style line endings because it uses Mac line endings), use \<fstream\> to read the .csv file line by line.
+4. In a for loop, the first and last names are set as members of the Item struct in the array (after removing them with str.erase() from \<algorithms\>), and also give each one their id.
 5. Take in a id to search for (0-499).
 6. Perform the binary search using hi, lo, and mid variables (if array[mid] == target, return that name, but if not, adjust hi and lo accordingly to halve the search region, then repeat).
 7. Delete the dynamic array.
