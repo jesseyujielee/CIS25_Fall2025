@@ -21,14 +21,20 @@ As I am currently taking a linear algebra math class, I would like to create a p
 
 ## 3. Deliverables
 Program files (main.cpp + others)
+
 Output.pdf with screenshots and explanation
+
 GitHub submission with correct file structure
 
 ## 4. Timeline
 Week 1–2: Define idea & set up GitHub
+
 Week 3–4: Build program features
+
 Week 5: Test & debug
+
 Week 6: Write Output.pdf
+
 Week 7: Submit final project
 
 ## 5. Success Criteria
