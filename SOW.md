@@ -1,6 +1,8 @@
 # Student Project – Scope of Work (SOW)
 Project Title: Linear Algebra Calculator
+
 Student Name: Yu Jie (Jesse) Lee
+
 Date: 10/9/25
 
 ## 1. Project Overview
