@@ -74,7 +74,7 @@ Objective: to use structs, pointers, and dynamic memory allocation to create a b
 midterm_bank.cpp:
 
 Objective: to design a bank account class, then test it.
-1. A class called BankAccount is created with private members balance and file
+1. A class called BankAccount is created with private members balance and file.
 2. A private method called saveToFile() opens file in append mode and determines the transaction from the string passed into it, then appends and closes the file.
 3. Public members are the constructor, deposit(), withdraw(), and get(). deposit() and withdraw() update balance (error is thrown if withdraw is too high) and call saveToFile(), and get() returns balance.
 4. In main(), a test BankAccount object is made, deposited into, and withdrawn from 2 times, then the balance is printed.
