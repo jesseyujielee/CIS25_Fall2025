@@ -42,11 +42,13 @@
     <ClCompile Include="Week 7\week_7_binary_search.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Midterm\midterm_bank.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include=".gitignore" />
     <None Include="README.md" />
-    <None Include="Week 7\us-500.csv" />
     <None Include="Week 7\us-500-windows.csv" />
   </ItemGroup>
   <ItemGroup>
@@ -59,5 +61,6 @@
   </ItemGroup>
   <ItemGroup>
     <Text Include="Week 6\items.txt" />
+    <Text Include="Midterm\transactions.txt" />
   </ItemGroup>
 </Project>

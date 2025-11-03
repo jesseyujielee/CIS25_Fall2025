@@ -60,7 +60,7 @@ Objective: to create an Item class, instantiate it and give it values, and call 
 
 week_7_binary_search.cpp:
 
-Objective: to use structs, pointers, and dynamic memory allocation to create a binary search algorithm
+Objective: to use structs, pointers, and dynamic memory allocation to create a binary search algorithm.
 1. A struct called Item is created with the members name and id.
 2. A dynamic array of Item is created.
 3. From a sample data set online of 500 names (https://www.briandunning.com/sample-data/; although you have to convert it to Windows-style line endings because it uses Mac line endings), \<fstream\> is used to read the .csv file line by line.
@@ -68,3 +68,13 @@ Objective: to use structs, pointers, and dynamic memory allocation to create a b
 5. An id is taken to search for (0-499).
 6. The binary search is performed using hi, lo, and mid variables (if array[mid] == target, return that name, but if not, adjust hi and lo accordingly to halve the search region, then repeat).
 7. The array is deleted.
+
+# Midterm
+
+midterm_bank.cpp:
+
+Objective: to design a bank account class, then test it.
+1. A class called BankAccount is created with private members balance and file
+2. A private method called saveToFile() opens file in append mode and determines the transaction from the string passed into it, then appends and closes the file.
+3. Public members are the constructor, deposit(), withdraw(), and get(). deposit() and withdraw() update balance (error is thrown if withdraw is too high) and call saveToFile(), and get() returns balance.
+4. In main(), a test BankAccount object is made, deposited into, and withdrawn from 2 times, then the balance is printed.

@@ -1,0 +1,3 @@
+Added: $15 (new total: $15)
+Subtracted: $2 (new total: $13)
+Subtracted: $10 (new total: $3)

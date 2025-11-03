@@ -59,7 +59,7 @@ void binary_search(Item* array, int target) {
 	std::cerr << "Not found" << "\n";
 }
 
-int main() {
+int week_7_binary_search() {
 	Item* itemList{ personArray() };
 
 	int target{};
