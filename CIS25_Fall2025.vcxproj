@@ -29,10 +29,12 @@
     <ClCompile Include="Week 5\week_5_menu.cpp" />
     <ClCompile Include="Week 6\week_6_inventory.cpp" />
     <ClCompile Include="Week 7\week_7_binary_search.cpp" />
+    <ClCompile Include="Week 9\week_9_inventory_array.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include=".gitignore" />
     <None Include="README.md" />
+    <None Include="SOW.md" />
     <None Include="Week 7\us-500-windows.csv" />
   </ItemGroup>
   <ItemGroup>

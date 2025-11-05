@@ -2,13 +2,13 @@
 #include <string>
 #include <fstream>
 
-class Item {
+class ItemWeekSix {
 public:
 	std::string name;
 	std::string description;
 	int quantity;
 
-	Item(std::string inputName, std::string inputDescription, int inputQuantity) {
+	ItemWeekSix(std::string inputName, std::string inputDescription, int inputQuantity) {
 		name = inputName;
 		description = inputDescription;
 		quantity = inputQuantity;
@@ -35,7 +35,7 @@ public:
 };
 
 int week_6_inventory() {
-	Item pen("Household pen", "Mighter than the sword", 5);
+	ItemWeekSix pen("Household pen", "Mighter than the sword", 5);
 
 	pen.saveToFile();
 	pen.loadFromFile();

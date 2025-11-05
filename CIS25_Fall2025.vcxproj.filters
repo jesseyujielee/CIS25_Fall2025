@@ -45,11 +45,15 @@
     <ClCompile Include="Midterm\midterm_bank.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Week 9\week_9_inventory_array.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include=".gitignore" />
     <None Include="README.md" />
     <None Include="Week 7\us-500-windows.csv" />
+    <None Include="SOW.md" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Week 5\greatest_digit.h">

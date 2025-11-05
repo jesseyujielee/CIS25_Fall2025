@@ -78,3 +78,14 @@ Objective: to design a bank account class, then test it.
 2. A private method called saveToFile() opens file in append mode and determines the transaction from the string passed into it, then appends and closes the file.
 3. Public members are the constructor, deposit(), withdraw(), and get(). deposit() and withdraw() update balance (error is thrown if withdraw is too high) and call saveToFile(), and get() returns balance.
 4. In main(), a test BankAccount object is made, deposited into, and withdrawn from 2 times, then the balance is printed.
+
+# Module 9
+
+module_9_inventory_array.cpp:
+
+Objective: to create an Item class, populate an array of Items, output them with loops, and search for them by name.
+1. A class called Item is created with public members name and quantity, with the default constructor setting them to "" and 0.
+2. A function called populate() takes in the inventory array of 10 Items and uses a while loop to take input for name and quantity (exit is typed to stop).
+3. A function called display() takes in the inventory array and uses a for loop to print out each Item's name and quantity if the name is not empty.
+4. A function called search() takes in the inventory array. A string to search for is inputted, and if found with a for loop, quantity is printed, otherwise a not found message is outputted.
+5. In main(), Item inventory[10] is declared, and populate(), display(), and search() are called on it.

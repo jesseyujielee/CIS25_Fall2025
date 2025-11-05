@@ -49,7 +49,7 @@ public:
 	}
 };
 
-int main() {
+int midterm_bank() {
 	BankAccount myAccount(0);
 	myAccount.deposit(15.00);
 	myAccount.withdraw(2.00, "socks");
