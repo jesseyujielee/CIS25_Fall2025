@@ -89,3 +89,13 @@ Objective: to create an Item class, populate an array of Items, output them with
 3. A function called display() takes in the inventory array and uses a for loop to print out each Item's name and quantity if the name is not empty.
 4. A function called search() takes in the inventory array. A string to search for is inputted, and if found with a for loop, quantity is printed, otherwise a not found message is outputted.
 5. In main(), Item inventory[10] is declared, and populate(), display(), and search() are called on it.
+
+# Week 13
+
+week_13_inventory_manager.cpp:
+
+Objective to create a base class called User, derive it, then derive it again while using virtual methods that are overwritten.
+1. A base class called User is defined in "week_13_user.h" with a protected member username, a constructor, and a virtual method accessLevel().
+2. A derived class called Employee is defined in "week_13_employee.h" by first doing #include "week_13_user.h", then inheriting User, inheriting its constructor, and overwriting accessLevel().
+3. The same step is repeated with InventoryManager in "week_13_inventory_manager.cpp", but is inherited from Employee.
+4. In main(), an InventoryManager object is instantiated with a username, and accessLevel() is called.

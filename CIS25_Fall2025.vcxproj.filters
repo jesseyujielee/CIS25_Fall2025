@@ -48,6 +48,15 @@
     <ClCompile Include="Module 9\module_9_inventory_array.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Week 13\week_13_inventory_manager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Week 13\week_13_employee.h">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Week 13\week_13_user.h">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include=".gitignore" />
