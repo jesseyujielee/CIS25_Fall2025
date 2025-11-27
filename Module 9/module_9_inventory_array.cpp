@@ -59,7 +59,7 @@ void search(Item inventory[10]) {
 	std::cout << "\nNot found\n";
 }
 
-int main() {
+int module_9_inventory_array() {
 
 	Item inventory[10];
 	populate(inventory);
