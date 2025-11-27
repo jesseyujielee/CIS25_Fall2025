@@ -94,7 +94,7 @@ Objective: to create an Item class, populate an array of Items, output them with
 
 week_13_inventory_manager.cpp:
 
-Objective to create a base class called User, derive it, then derive it again while using virtual methods that are overwritten.
+Objective: to create a base class called User, derive it, then derive it again while using virtual methods that are overwritten as well as header files.
 1. A base class called User is defined in "week_13_user.h" with a protected member username, a constructor, and a virtual method accessLevel().
 2. A derived class called Employee is defined in "week_13_employee.h" by first doing #include "week_13_user.h", then inheriting User, inheriting its constructor, and overwriting accessLevel().
 3. The same step is repeated with InventoryManager in "week_13_inventory_manager.cpp", but is inherited from Employee.
