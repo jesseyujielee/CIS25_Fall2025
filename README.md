@@ -99,3 +99,13 @@ Objective: to create a base class called User, derive it, then derive it again w
 2. A derived class called Employee is defined in "week_13_employee.h" by first doing #include "week_13_user.h", then inheriting User, inheriting its constructor, and overwriting accessLevel().
 3. The same step is repeated with InventoryManager in "week_13_inventory_manager.cpp", but is inherited from Employee.
 4. In main(), an InventoryManager object is instantiated with a username, and accessLevel() is called.
+
+# Week 14
+
+week_14_product.cpp:
+Objective: to create a class with a constructor and destructor.
+1. A class called Product is created with private members id (int), name (std::string), and price (float, since only need 2 decimal places).
+2. A constructor is created to set them each to inputted values, with price being explicitly converted from a double to a float. A print statement fires.
+3. A destructor is created using ~ to fire another print statement.
+4. A method called printDetails() lists the private members of the instance.
+5. In main(), a book object of Product is created, and printDetails() is called.

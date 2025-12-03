@@ -57,6 +57,9 @@
     <ClCompile Include="Week 13\week_13_user.h">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Week 14\week_14_product.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include=".gitignore" />
