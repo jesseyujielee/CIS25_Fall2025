@@ -11,7 +11,7 @@ public:
 	}
 };
 
-int main() {
+int week_13_inventory_manager() {
 
 	InventoryManager invMan("Gertrude");
 	invMan.accessLevel();
