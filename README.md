@@ -103,9 +103,22 @@ Objective: to create a base class called User, derive it, then derive it again w
 # Week 14
 
 week_14_product.cpp:
+
 Objective: to create a class with a constructor and destructor.
 1. A class called Product is created with private members id (int), name (std::string), and price (float, since only need 2 decimal places).
 2. A constructor is created to set them each to inputted values, with price being explicitly converted from a double to a float. A print statement fires.
 3. A destructor is created using ~ to fire another print statement.
 4. A method called printDetails() lists the private members of the instance.
 5. In main(), a book object of Product is created, and printDetails() is called.
+
+# Week 15
+
+week_15_kaggle.cpp:
+
+Objective: to use a public dataset and display at least 5 fields from at least 10 items.
+1. A csv file from Kaggle contains a list of ramen reviews (headers are review #, brand, variety, style, country, stars, & top 10 (if applicable))
+2. A class called fileReader is created with private member fileName, a constructor, and public method getReviews() to get a number of reviews (int) with at least a certain number of stars (float) out of 5.
+3. Inside the method, a file object is created that takes fileName as an argument, and variables are initiated for each relevant header (including a throwaway).
+4. Variables are set equal to each value in a while loop until number of reviews is reached.
+5. If the star rating is greater or equal to the desired requirement, the counter increases and the values are printed.
+6. In main(), a fileReader object is created using the csv path, and the first 10 reviews with 3.5 stars or above are printed.

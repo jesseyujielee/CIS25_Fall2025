@@ -25,7 +25,7 @@ public:
 	}
 };
 
-int main() {
+int week_14_product() {
 	Product book(101010, "Catcher in the Rye", 6.99);
 	book.printDetails();
 

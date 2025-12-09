@@ -25,6 +25,7 @@
     <ClCompile Include="Week 13\week_13_inventory_manager.cpp" />
     <ClCompile Include="Week 13\week_13_user.h" />
     <ClCompile Include="Week 14\week_14_product.cpp" />
+    <ClCompile Include="Week 15\week_15_kaggle.cpp" />
     <ClCompile Include="Week 3\week_3.cpp" />
     <ClCompile Include="Week 4\week_4_largest_number.cpp" />
     <ClCompile Include="Week 4\week_4_menu.cpp" />
@@ -40,6 +41,7 @@
     <None Include="Midterm\Midterm Screenshots.pdf" />
     <None Include="README.md" />
     <None Include="SOW.md" />
+    <None Include="Week 15\ramen ratings\ramen-ratings.csv" />
     <None Include="Week 7\us-500-windows.csv" />
   </ItemGroup>
   <ItemGroup>
