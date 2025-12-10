@@ -116,7 +116,7 @@ Objective: to create a class with a constructor and destructor.
 week_15_kaggle.cpp:
 
 Objective: to use a public dataset and display at least 5 fields from at least 10 items.
-1. A csv file from Kaggle contains a list of ramen reviews (headers are review #, brand, variety, style, country, stars, & top 10 (if applicable))
+1. A csv file from Kaggle (https://www.kaggle.com/datasets/residentmario/ramen-ratings) contains a list of ramen reviews (headers are review #, brand, variety, style, country, stars, & top 10 (if applicable))
 2. A class called fileReader is created with private member fileName, a constructor, and public method getReviews() to get a number of reviews (int) with at least a certain number of stars (float) out of 5.
 3. Inside the method, a file object is created that takes fileName as an argument, and variables are initiated for each relevant header (including a throwaway).
 4. Variables are set equal to each value in a while loop until number of reviews is reached.
